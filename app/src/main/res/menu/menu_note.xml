@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/addNote"
+        android:title="addNote"
+        android:icon="@drawable/ic_add_circle"
+        app:showAsAction="always"
+        android:onClick="ShowPopup"/>
+    <item android:id="@+id/more"
+        android:title="more"
+        android:icon="@drawable/ic_more"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/removeAll"
+                android:title="Remove All Tasks"
+                android:onClick="removeAll"/>
+            <item android:id="@+id/animate"
+                android:title="Animation">
+                <menu>
+                    <item android:id="@+id/fadein"
+                        android:title="Fade In"/>
+                    <item android:id="@+id/fadeout"
+                        android:title="Fade Out"/>
+                    <item android:id="@+id/zoom"
+                        android:title="Zoom"/>
+                    <item android:id="@+id/rotate"
+                        android:title="Rotate"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>

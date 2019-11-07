@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3A4CB4</color>
+    <color name="colorAccent">#FF4181</color>
+
+    <color name="white">#fff</color>
+    <color name="cerclebackground">#5e92f3</color>
+    <color name="orange">#E8AD44</color>
+    <color name="blue">#2099F9</color>
+    <color name="pinklight">#FFFFFF</color>
+    <color name="colorBg">#6976BB</color>
+
+</resources>
