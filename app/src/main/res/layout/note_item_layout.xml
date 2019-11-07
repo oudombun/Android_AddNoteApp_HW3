@@ -7,7 +7,7 @@
     android:orientation="vertical"
     app:cardCornerRadius="5dp"
     app:cardUseCompatPadding="true"
-    app:cardElevation="12dp">
+    app:cardElevation="5dp">
     <LinearLayout
         android:padding="10dp"
         android:paddingStart="15dp"
@@ -21,12 +21,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
-            android:fontFamily="@font/chewy"
+            android:fontFamily="@font/spicy_rice"
             android:maxLines="1"
             android:text="Title"
-            android:textColor="@android:color/black"
-            android:textSize="25dp"
-            android:textStyle="bold" />
+            android:textColor="#000000"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/txt2"

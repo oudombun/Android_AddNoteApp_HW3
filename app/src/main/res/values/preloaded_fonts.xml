@@ -3,7 +3,10 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/abril_fatface</item>
         <item>@font/bungee_shade</item>
+        <item>@font/butcherman</item>
         <item>@font/chewy</item>
+        <item>@font/henny_penny</item>
+        <item>@font/new_rocker</item>
         <item>@font/spicy_rice</item>
     </array>
 </resources>
